@@ -22,7 +22,7 @@ input.addEventListener("blur", () => {
     input.style.color = "green";
     wrongPrice.style.display = "none";
     div.style.display = "flex";
-    input.style.borderColor = "grey";
+    input.style.borderColor = "gray";
   } else {
     input.style.borderColor = "red";
     input.style.color = "inherit";
