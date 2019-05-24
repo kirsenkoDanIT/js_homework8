@@ -17,7 +17,7 @@ input.addEventListener("focus", () => {
 });
 
 input.addEventListener("blur", () => {
-  if (input.value >= 0) {
+  if (parseInt(input.value) >= 0) {
     price.innerText = `Текущая цена: ${input.value}`;
     input.style.color = "green";
     wrongPrice.style.display = "none";
