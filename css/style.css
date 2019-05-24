@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+input {
+  width: 200px;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid grey;
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+input::placeholder {
+  font-weight: 300;
+}
+
+/* input:focus {
+  border-color: green;
+} */
+
+div {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 2px solid grey;
+  margin: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+div span:nth-child(2) {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-image: url(../iconfinder_close15_216468.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+p {
+  display: none;
+}
